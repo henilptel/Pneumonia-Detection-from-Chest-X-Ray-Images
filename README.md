@@ -12,7 +12,7 @@ This project implements an ensemble-based deep learning approach for automatical
 - [Usage](#usage)
 
 ## Dataset
-The project uses the Chest X-Ray Images (Pneumonia) dataset containing:
+The project uses the [Chest X-Ray Images (Pneumonia) dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) from Kaggle containing:
 - Normal chest X-rays
 - Pneumonia chest X-rays (including bacterial and viral pneumonia)
 
