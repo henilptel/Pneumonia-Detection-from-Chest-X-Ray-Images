@@ -11,6 +11,32 @@ This project implements an ensemble-based deep learning approach for automatical
 - [Results](#results)
 - [Usage](#usage)
 
+## Project Structure
+```
+├── chest_xray\                    
+│   └── chest_xray\
+│       ├── train\                 # Training dataset
+│       │   ├── NORMAL\            # Normal X-ray images
+│       │   └── PNEUMONIA\         # Pneumonia X-ray images
+│       ├── val\                   # Validation dataset
+│       │   ├── NORMAL\
+│       │   └── PNEUMONIA\
+│       └── test\                  # Test dataset
+│           ├── NORMAL\
+│           └── PNEUMONIA\
+│
+├── model_weights\                # Saved model weights
+│   ├── resnet_model_ft.h5        
+│   ├── densenet_model_ft.h5      
+│   ├── vgg_model_ft.h5           
+│   └── ensemble_model.h5         
+│
+├── Project.ipynb                 
+├── ChestDataset.zip              
+├── README.md                     
+└── .gitignore                    
+```
+
 ## Dataset
 The project uses the [Chest X-Ray Images (Pneumonia) dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) from Kaggle containing:
 - Normal chest X-rays
